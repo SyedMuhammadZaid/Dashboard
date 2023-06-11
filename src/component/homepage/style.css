@@ -1,0 +1,80 @@
+.home-main{
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 2rem 3rem;
+    order: 2;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-direction: column;
+    z-index: 1;
+
+}
+
+.upper-card{
+    display: flex;
+    justify-content: flex-start;
+    align-self:flex-start;
+    flex-basis: 30%;
+    width: 80%;
+    background-color: white;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.selector{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem auto;
+    height: 50px;
+
+}
+
+.selector button:nth-of-type(1), .selector button:nth-of-type(2), .selector button:nth-of-type(3){
+    width: 33%;
+    color: black;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    text-transform: uppercase;
+
+}
+
+.selector button:nth-of-type(1){
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #FDF307;
+}
+
+.selector button:nth-of-type(3){
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.selector button:nth-of-type(2){
+    border-left: none;
+    border-right: none;
+}
+
+
+.down-card{
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-self:flex-start;
+    flex-basis: 30%;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.holiday-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
